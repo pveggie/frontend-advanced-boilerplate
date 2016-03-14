@@ -24,17 +24,17 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
-$brand-color: #D23333;
+$brand-color: #AF1141;
 
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
-$orange: #E67E22;
-$green: #32B796;
+$pink: #E01A4F;
+$blue: #0c0a3e;
+$yellow: #F9C22E;
+$orange: #F15946;
+$green: #539538;
 
 // Gray scale
-$gray-darker:  lighten(#000, 13.5%); // #222
-$gray-dark:    lighten(#000, 20%);   // #333
-$gray:         lighten(#000, 33.5%); // #555
-$gray-light:   lighten(#000, 46.7%); // #777
-$gray-lighter: lighten(#000, 93.5%); // #eee
+$grey-darker:  lighten(#000, 13.5%); // #333
+$grey-dark:    lighten(#000, 20%);   // #666
+$grey:         lighten(#000, 33.5%); // #999
+$grey-light:   lighten(#000, 46.7%); // #CCC
+$grey-lighter: lighten(#000, 93.5%); // #F4F4F4
