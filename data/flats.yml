@@ -1,0 +1,36 @@
+neptune:
+  name: neptune
+  full_name: Neptune, God of Water
+  picture: https://unsplash.it/900/500?image=1041
+  owner_picture: neptune.jpg
+  level_name: Neptune's Lair
+  summary: Annoying stuff with switches
+  dungeon: water level
+  wifi: false
+  hot_water: false
+  mini_bar: true
+  rating: 5
+gemma:
+  name: gemma
+  full_name: Gemma, a Weegie
+  picture: https://unsplash.it/900/500?image=983
+  owner_picture: gemma.jpg
+  level_name: Gemma's Lair
+  summary: Visit Scotland, get deep-fried
+  dungeon: city level
+  wifi: true
+  hot_water: true
+  rating: 2
+basilisk:
+  name: basilisk
+  full_name: Basilisk, the Stone King
+  picture: https://unsplash.it/900/500?image=884
+  owner_picture: basilisk.jpg
+  level_name: Basilisks's Lair
+  summary: Prepare to be petrified
+  dungeon: desert level
+  wifi: true
+  hot_water: false
+  mini_bar: false
+  rating: 3
+

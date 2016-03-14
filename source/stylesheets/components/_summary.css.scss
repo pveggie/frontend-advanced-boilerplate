@@ -1,0 +1,26 @@
+.summary {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  padding: 40px 20px 20px 20px;
+}
+
+
+.summary-owner {
+  text-align: center;
+  flex: 0 0 33%;
+  color: $grey-light;
+  // font-size: 10px;
+}
+
+.summary-flat {
+  flex: 0 0 66%;
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    color: $grey-light;
+  }
+}

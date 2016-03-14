@@ -56,16 +56,10 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: $pink;
   color: white;
   font-size: 14px;
-  border: 2px solid $pink;
+  border-width: 2px;
 
-  &:hover {
-    color: white;
-    background: $pink;
-    border-color: $brand-color;
-  }
 }
 
 

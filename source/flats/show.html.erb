@@ -1,0 +1,82 @@
+<div class="summary-card" style="background-image: url('<%= image_path owner.picture %>');">
+</div>
+
+<!-- Flat summary and booking form-->
+<div class="container">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+      <div class="summary">
+        <div class="summary-owner">
+          <%= image_tag owner.owner_picture, class:"avatar-large" %>
+          <div>
+            <%= owner.name.capitalize %>
+          </div>
+        </div>
+
+        <div class="summary-flat">
+          <!--         this is a flex item on the right -->
+          <h4><%= owner.summary %></h4>
+          <p><%= owner.dungeon.capitalize %></p>
+          <p>
+            <% owner.rating.times do %>
+            <i class="fa fa-star star-gold"></i>
+            <% end %>
+
+            <% (5 - owner.rating).times do %>
+            <i class="fa fa-star star-grey"></i>
+            <% end %>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+      <div class="booking-form-box-grey">
+        <form id="flat-booking-form">
+          <div class="row">
+            <div class="form_group">
+              <h4>Book this flat</h4>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <div class="form-group">
+                <input type="date" class="form-control" id="exampleInputEmail1" placeholder="Checkin">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <div class="form-group">
+                <input type="date" class="form-control" id="exampleInputEmail1" placeholder="Checkout">
+              </div>
+            </div>
+          </div>
+          <select class="form-group form-control">
+            <option value="1">1 guest</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
+          </select>
+          <div>
+            <button type="book" class="btn btn-danger form-group form-control">Book it</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Flat details-->
+<div class="wrapper-grey">
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+        <h5>About this flat</h5>
+        <div class="details-section">
+
+        </div>
+        <div class="details-section">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
